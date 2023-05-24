@@ -37,9 +37,9 @@ $ npm start
 ```
 
 Now call the contract functions which is deployed on sepolia: 0xb57fE257A4617a0eb6972c392A7ba97462b7aCF8 and see emitted events in terminal.
-This is how event data will be shown
+This is how event data will be shown-
 
-![emitted event image](./images/emittedEvent.png?raw=true)
+![emitted events image](./images/emittedEvents.png?raw=true)
 
 ## Hardhat Setup
 

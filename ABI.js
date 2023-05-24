@@ -1,4 +1,4 @@
-export const ABI = [
+const ABI = [
   {
     inputs: [{ internalType: "address", name: "nftAddress", type: "address" }],
     stateMutability: "nonpayable",
@@ -85,3 +85,4 @@ export const ABI = [
     type: "function",
   },
 ];
+module.exports = ABI;

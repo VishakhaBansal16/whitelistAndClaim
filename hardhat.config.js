@@ -9,16 +9,14 @@ module.exports = {
   networks: {
     hardhat: {},
     sepolia: {
-      url: "https://sepolia.infura.io/v3/d88f8ee2170d497d847bf35f1a78f1c7",
-      accounts: [
-        "52f2046c2002f0bd00adcebfc8cd45dcddd933eb47e9df34f2ec81386814a810",
-      ],
+      url: process.env.INFURA_API_URL,
+      accounts: [process.env.DEPLOYER_PRIVATE_KEY],
     },
   },
 
   etherscan: {
     apiKey: {
-      sepolia: "3EU1BFA7RYB6JS9CCFC6J6UQGBJ5DJD674",
+      sepolia: process.env.ETHERSCAN_API_KEY,
     },
   },
   solidity: {
