@@ -30,10 +30,10 @@ Run npm install to install required dependencies.
 $ npm install
 ```
 
-Run npm start to run the application so that events can be listened in terminal.
+Run node index.js to run the application so that events can be listened in terminal.
 
 ```
-$ npm start
+$ node index.js
 ```
 
 Now call the contract functions which is deployed on sepolia: 0xb57fE257A4617a0eb6972c392A7ba97462b7aCF8 and see emitted events in terminal.
