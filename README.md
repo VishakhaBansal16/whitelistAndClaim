@@ -36,10 +36,10 @@ Run npm start to run the application so that events can be listened in terminal.
 $ npm start
 ```
 
-Now call the contract functions which is deployed on sepolia: and see emitted events in terminal.
+Now call the contract functions which is deployed on sepolia: 0xb57fE257A4617a0eb6972c392A7ba97462b7aCF8 and see emitted events in terminal.
 This is how event data will be shown
 
-![solidity-coverage report image](./images/emittedEvent.png?raw=true)
+![emitted event image](./images/emittedEvent.png?raw=true)
 
 ## Hardhat Setup
 
